@@ -40,7 +40,7 @@ public class SMSOTPConstants {
     public static final String HEADERS = "headers";
     public static final String PAYLOAD = "payload";
     public static final String HTTP_RESPONSE = "http_response";
-    public static final String SMS_MESSAGE = "Verification Code: ";
+    public static final String SMS_MESSAGE = ""; // "Verification Code: "; // Changed to empty string so that we can override the complete SMS body.
     public static final String BACKUP_CODE = "BackupCode";
     public static final String IS_ENABLED_RETRY = "RetryEnable";
     public static final String IS_ENABLED_RESEND = "ResendEnable";
